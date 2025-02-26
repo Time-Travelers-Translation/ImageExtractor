@@ -13,9 +13,6 @@
     <ProjectReference Include="..\Mappings.ImageExtractor\Mappings.ImageExtractor.csproj" />
   </ItemGroup>
   <ItemGroup>
-    <Content Update="config.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
     <Content Update="map.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

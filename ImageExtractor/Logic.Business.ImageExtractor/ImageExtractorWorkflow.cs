@@ -56,9 +56,9 @@ namespace Logic.Business.ImageExtractor
         {
             Console.WriteLine("Following commands exist:");
             Console.WriteLine("  -h, --help\t\tShows this help message.");
-            Console.WriteLine("  -c, --chapter\tThe chapter to extract images from.");
-            Console.WriteLine("  -i, --input\tThe folder path to the fully extracted tt1.cpk.");
-            Console.WriteLine("  -o, --output\tThe folder path to output the images to.");
+            Console.WriteLine("  -c, --chapter\t\tThe chapter to extract images from.");
+            Console.WriteLine("  -i, --input\t\tThe folder path to the fully extracted tt1.cpk.");
+            Console.WriteLine("  -o, --output\t\tThe folder path to output the images to.");
         }
 
         private Exception GetInnermostException(Exception e)
