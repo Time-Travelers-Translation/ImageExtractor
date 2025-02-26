@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+	<RootNamespace>Logic.Business.ImageExtractor</RootNamespace>
+	<AssemblyName>Logic.Business.ImageExtractor</AssemblyName>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\ImageExtractor\CrossCutting.Core.Contract\CrossCutting.Core.Contract.csproj" />
+    <ProjectReference Include="..\Logic.Business.ImageExtractor.Contract\Logic.Business.ImageExtractor.Contract.csproj" />
+    <ProjectReference Include="..\Logic.Domain.Level5Management.Contract\Logic.Domain.Level5Management.Contract.csproj" />
+  </ItemGroup>
+
+</Project>
